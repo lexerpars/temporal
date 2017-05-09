@@ -25,7 +25,7 @@
     'depends': ['base'],
 
     'data': [
-
+        'views/invoice_format_print.xml',
     ],
 
     'demo': [

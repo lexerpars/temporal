@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <template id="account.invoice_format_print">
+      <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="o">
+          <div class="header">
+            <span>ll</span>                
+          </div>
+          <div class="page">
+            <span>mas</span>
+          </div>
+        </t>
+      </t> 
+    </template>
+
+    <report id="account.inoice_format_print_report" name="account.invoice_format_print" file="account.invoice_format_print" model="account.invoice" report_type="qweb-pdf" string="Fuego y Seguridad" menu="True"/>
+  </data>
+</odoo>
+ 
